@@ -31,7 +31,7 @@ deploy:
   secret_access_key: $AWS_SECRET_KEY
   region: "ap-northeast-2"
   app: "restaurant"
-  env: "Restaurant-java8"
-  bucket_name: "elasticbeanstalk-ap-northeast-2-893382876075"  # S3 bucket name
+  env: "Restaurant-env"
+  bucket_name: "elasticbeanstalk-us-east-2-572207109054"  # S3 bucket name
   on:
     branch: master
