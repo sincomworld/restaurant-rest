@@ -30,7 +30,8 @@ deploy:
   skip_cleanup: true
   access_key_id: $AWS_ACCESS_KEY # declared in Travis repo settings
   secret_access_key: $AWS_SECRET_KEY
-  region: "ap-northeast-2"
+  #region: "ap-northeast-2"
+  region: "us-east-2"
   app: "restaurant"
   env: "Restaurant-env"
   bucket_name: "elasticbeanstalk-us-east-2-572207109054"  # S3 bucket name
